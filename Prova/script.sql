@@ -1,0 +1,7 @@
+CREATE TABLE Agendamentos (
+  id INT IDENTITY PRIMARY KEY,
+  nomeEspaco VARCHAR(255) NOT NULL,
+  data VARCHAR(50) NOT NULL,
+  hora VARCHAR(50) NOT NULL,
+  reserva VARCHAR(255)
+);
